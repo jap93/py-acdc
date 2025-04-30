@@ -1,0 +1,40 @@
+# Define constants
+BOLTZMANN = 0.00008617333262145  # BOLTZMANN constant in eV
+
+MAXGVEC = 40000  # max number of g vectors
+MAXMESH = 5000  # number of points along mesh
+
+PI = 3.14159265358979323846264338328
+TWOPI = 2.0 * PI
+HALFPI = PI / 2.0
+ROOTPI = 1.77245385090551602729816748334
+
+TORADIANS = PI / 180.0
+
+# Internal conversion units
+CTODL = 138936.0689
+CTOEV = 14.3997584
+EVTODL = 9648.530821
+DLTOEV = 1.0 / EVTODL
+# 1 Ha/Bohr = 51.42208619083232 eV/Angstrom
+ANGTOBOHR = 1.889726134583548707935
+BOHRTOANG = 1.0 / 1.889726134583548707935
+HARTREETOEV = 27.2113846081672
+EVTOHARTREE = 1.0 / 27.2113846081672
+AUTOFS = 0.0241888468  # conversion au to femtoseconds
+
+# Status constants
+SUCCESS = 0
+FAILED = -1
+INTERRUPTED = -2
+TERMINATED = -3
+STARTSEARCH = -4
+CONTINUESEARCH = -5
+
+# Memory management
+DOFFSET = 64
+
+# Data transfer
+PARENTPOSSEND = 24  # for sending position data from parent to the workgroups
+GRPPOSSEND = 25  # work group send of positions to parent
+
