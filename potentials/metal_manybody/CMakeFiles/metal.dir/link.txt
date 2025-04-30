@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -Wall -Wextra -pedantic -O2 -fopenmp -shared  -o metal.cpython-312-x86_64-linux-gnu.so CMakeFiles/metal.dir/src/Field.cpp.o CMakeFiles/metal.dir/src/ManyBody.cpp.o CMakeFiles/metal.dir/src/NbrListPBC.cpp.o CMakeFiles/metal.dir/src/Species.cpp.o CMakeFiles/metal.dir/src/MetalPotential.cpp.o 
