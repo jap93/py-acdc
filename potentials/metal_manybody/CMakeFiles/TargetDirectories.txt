@@ -1,0 +1,3 @@
+/mnt/eac37a9d-8547-446a-b0e0-92f605ac751d/python/py-acdc/potentials/metal_manybody/CMakeFiles/metal.dir
+/mnt/eac37a9d-8547-446a-b0e0-92f605ac751d/python/py-acdc/potentials/metal_manybody/CMakeFiles/edit_cache.dir
+/mnt/eac37a9d-8547-446a-b0e0-92f605ac751d/python/py-acdc/potentials/metal_manybody/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,36 @@
+prerelax
+freeze 1
+Ft
+kmc{
+kmctemperature 600
+prefactor 1e13
+kmcsteps 50
+kmcevents 15
+kmcmethod art
+mincap 0.1
+window 50
+kmcbasinradius 1.0
+target local  8.0
+}
+search{
+verlet
+minmethod fire2
+maxpariter 1500
+numvectors 25
+initialdisplacement 0.02
+timestep 0.0005
+maxstep 0.001
+alpha 0.1
+forcetol 1.0e-3
+dispbasin2 0.05
+unfreezebasin2
+debug
+}
+relax{
+forcetol 1.0e-4
+timestep 0.0005
+maxstep 0.0015
+alpha 0.1
+debug
+}
+close
