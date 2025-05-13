@@ -102,6 +102,7 @@ class KineticMonteCarlo:
                     if temp_rate > ran_number:
                         ievent = i
                         search_number = event.get_search_number()
+                        activation_energy = event.get_activation_energy()
                         break
                 
                 out_stream.write(f"\n\n kmc iteration : {iteration} chosen event : {ievent}\n")
@@ -124,7 +125,7 @@ class KineticMonteCarlo:
                 tmp = "iteration" + str(iteration)
                 file_name = os.path.join(tmp,"selection")
                 with open(file_name, "w") as selectionstream:
-                    selectionstream.write(f"event {ievent} search {search_number}")
+                    selectionstream.write(f"event {ievent} search {search_number} E_a {activation_energy}")
 
                 tmp1 = "search" + str(search_number)
                 file_name = os.path.join(tmp,tmp1,"basin2.xyz")
